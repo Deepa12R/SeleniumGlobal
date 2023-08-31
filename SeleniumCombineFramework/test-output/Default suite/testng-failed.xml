@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FunctionTest.FT_Opportunities_02_test">
+      <class name="contacts.FT_CONTACTS_01_Test">
         <methods>
+          <include name="Creating_a_contact_with_valid_details"/>
           <include name="signOutFromApplication"/>
           <include name="closingTheBrowser"/>
-          <include name="FT_Opportunities"/>
           <include name="launchingBrowser"/>
           <include name="navigatingtoApplication"/>
         </methods>
-      </class> <!-- FunctionTest.FT_Opportunities_02_test -->
+      </class> <!-- contacts.FT_CONTACTS_01_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

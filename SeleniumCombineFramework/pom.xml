@@ -5,13 +5,23 @@
 	<groupId>QSP</groupId>
 	<artifactId>SeleniumCombineFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 
 	<properties>
+		
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
 
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+	
+ <maven.compiler.source>1.8</maven.compiler.source>
+ <maven.compiler.target>1.8</maven.compiler.target>
+
+
 	</properties>
+	
 
 	<build>
 		<plugins>
@@ -102,10 +112,12 @@
 		</dependency>
 
 	</dependencies>
+	
 	<profiles>
 		<profile>
 			<id>FT</id>
 			<build>
+				
 				<plugins>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>

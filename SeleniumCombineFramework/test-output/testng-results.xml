@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-22T12:32:37 IST" name="Suite" finished-at="2023-08-22T12:33:05 IST" duration-ms="27962">
+  <suite started-at="2023-08-30T12:27:26 IST" name="Default suite" finished-at="2023-08-30T12:27:49 IST" duration-ms="23739">
     <groups>
     </groups>
-    <test started-at="2023-08-22T12:32:37 IST" name="Test" finished-at="2023-08-22T12:33:05 IST" duration-ms="27962">
-      <class name="practice.demoxml_Test">
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:practice.demoxml_Test@7205765b]" started-at="2023-08-22T12:32:37 IST" name="launchingBrowser" finished-at="2023-08-22T12:32:47 IST" duration-ms="9961" status="PASS">
+    <test started-at="2023-08-30T12:27:26 IST" name="Default test" finished-at="2023-08-30T12:27:49 IST" duration-ms="23739">
+      <class name="FunctionTest.FT_Organizations_01_Test">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:FunctionTest.FT_Organizations_01_Test@1da2cb77]" started-at="2023-08-30T12:27:26 IST" name="launchingBrowser" finished-at="2023-08-30T12:27:31 IST" duration-ms="5633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="navigatingtoApplication()[pri:0, instance:practice.demoxml_Test@7205765b]" started-at="2023-08-22T12:32:47 IST" name="navigatingtoApplication" finished-at="2023-08-22T12:32:57 IST" duration-ms="10333" status="PASS">
+        <test-method is-config="true" signature="navigatingtoApplication()[pri:0, instance:FunctionTest.FT_Organizations_01_Test@1da2cb77]" started-at="2023-08-30T12:27:31 IST" name="navigatingtoApplication" finished-at="2023-08-30T12:27:40 IST" duration-ms="8503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigatingtoApplication -->
-        <test-method signature="demoxml()[pri:0, instance:practice.demoxml_Test@7205765b]" started-at="2023-08-22T12:32:57 IST" name="demoxml" finished-at="2023-08-22T12:32:57 IST" duration-ms="12" status="PASS">
+        <test-method signature="FT_TestOrganization()[pri:0, instance:FunctionTest.FT_Organizations_01_Test@1da2cb77]" started-at="2023-08-30T12:27:40 IST" name="FT_TestOrganization" finished-at="2023-08-30T12:27:47 IST" duration-ms="6984" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoxml -->
-        <test-method is-config="true" signature="signOutFromApplication()[pri:0, instance:practice.demoxml_Test@7205765b]" started-at="2023-08-22T12:32:57 IST" name="signOutFromApplication" finished-at="2023-08-22T12:33:04 IST" duration-ms="7082" status="PASS">
+        </test-method> <!-- FT_TestOrganization -->
+        <test-method is-config="true" signature="signOutFromApplication()[pri:0, instance:FunctionTest.FT_Organizations_01_Test@1da2cb77]" started-at="2023-08-30T12:27:47 IST" name="signOutFromApplication" finished-at="2023-08-30T12:27:49 IST" duration-ms="1913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOutFromApplication -->
-        <test-method is-config="true" signature="closingTheBrowser()[pri:0, instance:practice.demoxml_Test@7205765b]" started-at="2023-08-22T12:33:04 IST" name="closingTheBrowser" finished-at="2023-08-22T12:33:05 IST" duration-ms="487" status="PASS">
+        <test-method is-config="true" signature="closingTheBrowser()[pri:0, instance:FunctionTest.FT_Organizations_01_Test@1da2cb77]" started-at="2023-08-30T12:27:49 IST" name="closingTheBrowser" finished-at="2023-08-30T12:27:49 IST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingTheBrowser -->
-      </class> <!-- practice.demoxml_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- FunctionTest.FT_Organizations_01_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
